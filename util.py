@@ -61,9 +61,9 @@ if __name__ == "__main__":
     # How many classes?
     n_classes = np.unique(y_train).shape[0]
 
-    print("训练数据集的数据个数 =", n_train)
-    print("图像尺寸  =", image_shape)
-    print("类别数量 =", n_classes)
+    print("Number of the training data=", n_train)
+    print("Size of an traffic sign image=", image_shape)
+    print("Number of class=", n_classes)
 
     show_random_samples(X_train, y_train, n_classes)
     show_classes_distribution(n_classes, y_train, n_train)

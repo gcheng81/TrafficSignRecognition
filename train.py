@@ -13,7 +13,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.layers import Dropout
 from tensorflow.keras.models import Model
 from tensorflow.keras.models import load_model
-from tensorflow.keras.layers import Concatenate
+#from tensorflow.keras.layers import Concatenate
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sklearn.model_selection import train_test_split
@@ -185,6 +185,3 @@ if __name__ == "__main__":
 #     image_datagen_t = get_image_generator()
 #     show_samples_from_generator(image_datagen_t, X_train_t, y_train_t)
 # =============================================================================
-
-
-
